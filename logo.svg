@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     height="500"
+     width="350" >
+
+    <defs>
+		<path id="textArc" d="
+			M 100,320
+			A 155,155 0 1 1 250,320
+		" />
+		
+		<g id="key">
+			<path d="
+				M 170, 385
+				A 25,20 0 1 1 180,385
+				L 180, 460
+				L 190, 460
+				L 190, 470
+				L 180, 470
+				L 180, 485
+				L 170, 485
+			" />
+			
+			<circle cx="167.5" cy="365" r="11" fill="white"/>
+			<circle cx="182.5" cy="365" r="11" fill="white"/>
+		</g>
+    </defs>
+    
+    
+    <!-- Key Hole -->
+	<path d="
+		M 140,150
+		A 60,60 0 1 1 210,150
+		L 250 320
+		L 100 320
+	" />
+	
+	
+	<!-- Place Keys -->
+	<g transform="rotate(18 175 100)">
+		<use xlink:href="#key" />
+	</g>
+	<g transform="rotate(6 175 100)">
+		<use xlink:href="#key" />
+	</g>
+	<g transform="rotate(-6 175 100)">
+		<use xlink:href="#key" />
+	</g>
+	<g transform="rotate(-18 175 100)">
+		<use xlink:href="#key" />
+	</g>
+    
+    
+    <!-- Inspirational Text -->
+    <text x="15" y="0" style="stroke: #000000;" font-family="OCRA" letter-spacing="-5" font-size="22.5">
+      <textPath xlink:href="#textArc" >
+            The Keys to Knowledge and Inspiration Lie Within the Chaos of Ourselves
+      </textPath>
+    </text>
+
+</svg>
