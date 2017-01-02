@@ -4,6 +4,15 @@
      width="350" >
 
     <defs>
+		<style type="text/css">
+			<![CDATA[
+				@font-face {
+					font-family: OCRA;
+					src: url('ocraextended.ttf');
+				}
+			]]>
+		</style>
+   
 		<path id="textArc" d="
 			M 100,320
 			A 155,155 0 1 1 250,320
@@ -52,7 +61,7 @@
     
     
     <!-- Inspirational Text -->
-    <text x="15" y="0" style="stroke: #000000;" font-family="OCRA" letter-spacing="-5" font-size="22.5">
+    <text x="15" y="0" style="stroke: #000000;" font-family="OCRA" letter-spacing="-2.8" font-size="22.5">
       <textPath xlink:href="#textArc" >
             The Keys to Knowledge and Inspiration Lie Within the Chaos of Ourselves
       </textPath>
